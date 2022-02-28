@@ -1,0 +1,251 @@
+/* BODY */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Heveltica', sans-serif;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 45px;
+    float: right;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    width: 180px;
+}
+
+.logo {
+    color: white;
+    justify-content: flex-start;
+    margin-left: 45px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    text-decoration: none;
+    transition: background .3s;
+    margin-right: 0;
+    width: 100%;
+
+
+
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: background .3s;
+}
+
+.checkbtn {
+    margin-right: 45px;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+/* MAIN */
+main {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    padding: 74px 0 108px;
+    width: 100%;
+}
+
+
+/* por ordem de aparição no html, vamos adicionar o estilo para div do perfil-container */
+
+#perfil-container {
+    align-items: center;
+    display: flex;
+    height: 670px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 10rem 0 10rem;
+}
+.texto{
+    width: 100%;
+    margin-right: 08px;
+    padding: 0 10rem 0 10rem;
+
+}
+.imagem{
+    /*propriedade: valor;*/
+    width: 80%;
+    padding-right: 10rem;
+
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px;
+    margin: unset;
+    
+}
+
+h1 span {
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    letter-spacing: -2px;
+
+}
+h1 span {
+    color: #929292;
+}
+h2 {
+    font-family: 'Helvetica', Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin: 24px 0 ;
+
+    width: 80%;
+
+}
+
+h2 a {
+    text-decoration: none;
+    color: currentColor;
+    font-weight: bold;
+}
+.imagem img {
+    width: 100%;
+    margin-right: 19rem;
+}
+
+/* FOOTER */
+footer {
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 572px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#contato {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 72px;
+    line-height: 79px;
+    margin-bottom: 172px;
+    width: 70%;
+}
+
+#contato h3 {
+    margin: 88px 0 0;
+}
+
+#contato h4 {
+    color: #929292;
+    margin: 16px 0 0;
+}
+
+#infos {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#email {
+    display: flex;
+}
+
+#email img {
+    height: 24px;
+    left: 409px;
+    width: 24px;
+}
+
+#email:hover {
+    border-bottom: 1px solid;
+    font-style: italic;
+}
+
+#email a:hover {
+    text-decoration: none;
+}
+
+#redes-sociais div {
+    display: flex;
+    list-style: none;
+}
+
+footer div a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+} 
+
+footer div a:first-of-type {
+    margin-left: 0;
+} 
+
+footer div a:hover {
+    text-decoration: underline;
+} 
+
+#botao-topo {
+    background: none;
+    border: none;
+    bottom: 20px; 
+    cursor: pointer;
+    display: none;
+    outline: none;
+    padding: 15px;
+    position: fixed; 
+    right: 30px; 
+    z-index: 99;
+
+}
+
+#botao-topo img {
+    height: 40px;
+    width: 40px;
+}

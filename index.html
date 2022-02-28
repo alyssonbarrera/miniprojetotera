@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Alysson Barrera</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i><img src="./assets/menu.svg" alt=""></i>
+            </label>
+            <label class="logo">Alysson Barrera</label>
+            <ul>
+                
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5518997009991" target="blank">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- main: principal. tag semântica que indica onde guardamos informações principais do site -->
+            <header id="perfil-container">
+                <div class="texto">
+                    <h1>Alysson <span>Barrera</span></h1>
+                    <h2>Um jovem estudante que busca mudar de carreira aprendendo full stack development com a melhor edtech que existe, a <a href="https://somostera.com/" target="blank">Tera</a>!</h2>
+                </div>
+                <div class="imagem">
+                    <img src="assets/1645077445957.jpg" alt="Homem branco sorrindo para a câmera. Ele tem olhos e cabelos castanho escuro.">
+                </div>
+            </header>
+
+        </main>
+        <footer>
+            <div id="contato">
+                <h3>vamos trabalhar juntos?</h3>
+                <h4>envie uma mensagem.</h4>
+            </div>
+            <div id="infos">
+                <div id="email">
+                    <a href="maito:alyssonbarrera.s@gmail.com">alyssonbarrera.s@gmail.com</a>
+                    <img src="./assets/icons/seta.png" alt="Ícone de seta">
+                </div>
+                <div id="redes-sociais">
+                    <div>
+                        <a href="https://www.facebook.com/alysson.juniorbarreradesouza" target="blank"><img src="./assets/icons/facebook.png" alt="Logo Facebook"></a>
+                        <a href="https://www.instagram.com/alyssonbarrera/" target="blank"><img src="./assets/icons/instagram.png" alt="Logo Instagram"></a>
+                        <a href="https://github.com/alyssonbarrera" target="blank"><img src="./assets/icons/github.png" alt="Logo Github"></a>
+                        <!-- <a href="#"><img src="./assets/icons/behance.png" alt="Logo Behance"></a> -->
+                    </div>
+                </div>
+                <h3 class="cidade">Presidente Prudente • Brasil</h3>
+            </div>
+        </footer>
+        <button id="botao-topo" onclick="voltarParaTopo()">
+            <img src="./assets/icons/up-arrow.png" alt="Símbolo de seta apontando para cima">
+        </button>
+        <script src="script.js" defer></script>
+    </body>
+</html>
